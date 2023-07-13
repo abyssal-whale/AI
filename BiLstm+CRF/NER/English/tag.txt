@@ -1,0 +1,17 @@
+总共有9种tag，4类实体
+B-XX表示实体名称的开始，I-XX表示实体名称的中间字，O表示非实体字
+
+## not a entity
+"O": 0
+## person entities
+"B-PER": 1
+"I-PER": 2
+## organization entities
+"B-ORG": 3
+"I-ORG": 4
+## location entities
+"B-LOC": 5
+"I-LOC": 6
+## other entities
+"B-MISC": 7 
+"I-MISC": 8

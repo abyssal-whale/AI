@@ -1,0 +1,12 @@
+总共有33种tag，8类实体
+B-XX表示实体名称的开始，M-XX表示实体名称的中间字，E-XX表示实体名称的结束字, S-XX表示单个字即为实体，O表示非实体字
+
+非实体：'O',
+名字: 'B-NAME', 'M-NAME', 'E-NAME', 'S-NAME'
+国籍: 'B-CONT', 'M-CONT', 'E-CONT', 'S-CONT'
+学历：'B-EDU', 'M-EDU', 'E-EDU', 'S-EDU'
+头衔：'B-TITLE', 'M-TITLE', 'E-TITLE', 'S-TITLE'
+组织：'B-ORG', 'M-ORG', 'E-ORG', 'S-ORG'
+民族：'B-RACE', 'M-RACE', 'E-RACE', 'S-RACE'
+专业：'B-PRO', 'M-PRO', 'E-PRO', 'S-PRO'
+籍贯：'B-LOC', 'M-LOC', 'E-LOC', 'S-LOC'
